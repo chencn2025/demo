@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20211223" releaseVersion="11.0.0">
+<TableDataMap>
+<TableData name="piping system" class="com.fr.data.impl.ExcelTableData">
+<ExcelTableDataAttr needColumnName="true" isFromEnv="true" filePath="reportlets/piping-test1.xlsx"/>
+<Parameters/>
+<Desensitizations desensitizeOpen="false"/>
+</TableData>
+</TableDataMap>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="1" zoom="true" refresh="false" isUseHTML="false" isMobileCanvasSize="false" appearRefresh="false" allowFullScreen="false" allowDoubleClickOrZoom="true" functionalWhenUnactivated="false"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR F="0" T="0"/>
+<FR/>
+<HC/>
+<FC/>
+<UPFCR COLUMN="false" ROW="true"/>
+<USE REPEAT="true" PAGE="true" WRITE="false"/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,3276600,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<O>
+<![CDATA[介质]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="1" r="0" s="0">
+<O>
+<![CDATA[管道等级]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="2" r="0" s="0">
+<O>
+<![CDATA[分类]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="3" r="0" s="0">
+<O>
+<![CDATA[类型]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="4" r="0" s="0">
+<O>
+<![CDATA[DN]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="5" r="0" s="0">
+<O>
+<![CDATA[OD]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="6" r="0" s="0">
+<O>
+<![CDATA[壁厚]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="7" r="0" s="0">
+<O>
+<![CDATA[单重(kg)]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="8" r="0" s="0">
+<O>
+<![CDATA[材质]]></O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<CellOptionalAttrHolder>
+<DesensitizationAttr class="com.fr.report.cell.cellattr.CellDesensitizationAttr">
+<Desensitizations desensitizeScope="0"/>
+</DesensitizationAttr>
+</CellOptionalAttrHolder>
+<CellInsertPolicy/>
+<Expand>
+<cellSortAttr>
+<sortExpressions/>
+<sortHeader sortArea="A1"/>
+</cellSortAttr>
+</Expand>
+</C>
+<C c="0" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="介质"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNAME>
+<![CDATA[介质]]></CNAME>
+<Compare op="0">
+<O t="XMLable" class="com.fr.base.Formula">
+<Attributes>
+<![CDATA[=if(LEN($介质)=0,NOFILTER,$介质)]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper">
+<Attr divideMode="1"/>
+</RG>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+<cellSortAttr>
+<sortExpressions/>
+</cellSortAttr>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="管道等级"/>
+<Condition class="com.fr.data.condition.ListCondition">
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNAME>
+<![CDATA[介质]]></CNAME>
+<Compare op="0">
+<O t="XMLable" class="com.fr.base.Formula">
+<Attributes>
+<![CDATA[=if(LEN($介质)=0,NOFILTER,$介质)]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+<JoinCondition join="0">
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNAME>
+<![CDATA[管道等级]]></CNAME>
+<Compare op="0">
+<O t="XMLable" class="com.fr.base.Formula">
+<Attributes>
+<![CDATA[=if(LEN($管道等级)=0,NOFILTER,$管道等级)]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</JoinCondition>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+<cellSortAttr>
+<sortExpressions/>
+</cellSortAttr>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="分类"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+<cellSortAttr/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="类型"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="DN"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="OD(mm)"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="6" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="壁厚(mm)"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="7" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="单重(kg)"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="8" r="1" s="1">
+<O t="DSColumn">
+<Attributes dsName="piping system" columnName="材质"/>
+<Complex/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="16" r="16" s="1">
+<O>
+<![CDATA[ ]]></O>
+<PrivilegeControl/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="42768000" height="60480000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+<FollowingTheme background="true"/>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-1" hor="-1" ver="-1"/>
+</color>
+</Background>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="false" windowPosition="1" align="0" useParamsTemplate="true" currentIndex="8"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<ParameterUI class="com.fr.form.main.parameter.FormParameterUI">
+<Parameters/>
+<Layout class="com.fr.form.ui.container.WParameterLayout">
+<WidgetName name="para"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<FollowingTheme borderStyle="false"/>
+<Margin top="0" left="0" bottom="0" right="0"/>
+<Border>
+<border style="0" borderRadius="0" type="0" borderStyle="0">
+<color>
+<FineColor color="-723724" hor="-1" ver="-1"/>
+</color>
+</border>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-526086" hor="-1" ver="-1"/>
+</color>
+</Background>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="类型"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="类型" viName="类型"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[piping system]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="295" y="58" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Label类型"/>
+<LabelName name="管道等级:"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[类型:]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0">
+<color>
+<FineColor color="-723724" hor="-1" ver="-1"/>
+</color>
+</border>
+</InnerWidget>
+<BoundsAttr x="215" y="58" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="分类"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="分类" viName="分类"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[piping system]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="295" y="24" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Label分类"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[分类:]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0">
+<color>
+<FineColor color="-723724" hor="-1" ver="-1"/>
+</color>
+</border>
+</InnerWidget>
+<BoundsAttr x="215" y="24" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="管径"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="DN" viName="DN"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[piping system]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="463" y="24" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Label管径"/>
+<LabelName name="类型:"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[管径:]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0">
+<color>
+<FineColor color="-723724" hor="-1" ver="-1"/>
+</color>
+</border>
+</InnerWidget>
+<BoundsAttr x="383" y="24" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="管道等级"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="管道等级" viName="管道等级"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[piping system]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="130" y="58" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Label管道等级"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[管道等级:]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0">
+<color>
+<FineColor color="-723724" hor="-1" ver="-1"/>
+</color>
+</border>
+</InnerWidget>
+<BoundsAttr x="50" y="58" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.parameter.FormSubmitButton">
+<WidgetName name="Search"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[查询]]></Text>
+<Hotkeys>
+<![CDATA[enter]]></Hotkeys>
+</InnerWidget>
+<BoundsAttr x="423" y="58" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="介质"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.TableDataDictionary">
+<FormulaDictAttr kiName="介质" viName="介质"/>
+<TableDataDictAttr>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[piping system]]></Name>
+</TableData>
+</TableDataDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="130" y="25" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Label介质"/>
+<WidgetAttr aspectRatioLocked="false" aspectRatioBackup="-1.0" description="">
+<MobileBookMark useBookMark="false" bookMarkName="" frozen="false" index="-1" oldWidgetName=""/>
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[介质:]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0">
+<color>
+<FineColor color="-723724" hor="-1" ver="-1"/>
+</color>
+</border>
+</InnerWidget>
+<BoundsAttr x="50" y="25" width="80" height="21"/>
+</Widget>
+<ShowBookmarks showBookmarks="false"/>
+<Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="分类"/>
+<Widget widgetName="管径"/>
+<Widget widgetName="介质"/>
+<Widget widgetName="管道等级"/>
+<Widget widgetName="类型"/>
+<Widget widgetName="Search"/>
+</MobileWidgetList>
+<FrozenWidgets/>
+<MobileBookMarkStyle class="com.fr.form.ui.mobile.impl.DefaultMobileBookMarkStyle"/>
+<Display display="true"/>
+<DelayDisplayContent delay="false"/>
+<UseParamsTemplate use="true"/>
+<paramFireStopEdit fireEvent="false"/>
+<Position position="0"/>
+<Design_Width design_width="960"/>
+<NameTagModified/>
+<WidgetNameTagMap/>
+<ParamAttr class="com.fr.report.mobile.DefaultMobileParamStyle"/>
+<ParamStyle class="com.fr.form.ui.mobile.impl.DefaultMobileParameterStyle"/>
+<FollowingTheme background="true"/>
+</Layout>
+<DesignAttr width="960" height="101"/>
+</ParameterUI>
+<Parameter>
+<Attributes name="介质"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="管道等级"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="分类"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="类型"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+<Parameter>
+<Attributes name="管径"/>
+<O>
+<![CDATA[]]></O>
+</Parameter>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="simhei" style="1" size="84">
+<foreground>
+<FineColor color="-12159859" hor="0" ver="3"/>
+</foreground>
+</FRFont>
+<Background name="ColorBackground">
+<color>
+<FineColor color="-853505" hor="0" ver="1"/>
+</color>
+</Background>
+<Border>
+<Top style="1">
+<color>
+<FineColor color="-2826753" hor="7" ver="1"/>
+</color>
+</Top>
+<Bottom style="1">
+<color>
+<FineColor color="-2826753" hor="7" ver="1"/>
+</color>
+</Bottom>
+<Left style="1">
+<color>
+<FineColor color="-2826753" hor="7" ver="1"/>
+</color>
+</Left>
+<Right style="1">
+<color>
+<FineColor color="-2826753" hor="7" ver="1"/>
+</color>
+</Right>
+</Border>
+</Style>
+<Style style_name="默认" full="true" border_source="-1" imageLayout="1">
+<FRFont name="simhei" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesensitizationList/>
+<DesignerVersion DesignerVersion="LAA"/>
+<PreviewType PreviewType="0"/>
+<StrongestControlAttr class="com.fr.widgettheme.control.attr.WidgetDisplayEnhanceMarkAttr">
+<StrongestControlAttr widgetEnhance="false"/>
+</StrongestControlAttr>
+<TemplateThemeAttrMark class="com.fr.base.iofile.attr.TemplateThemeAttrMark">
+<TemplateThemeAttrMark name="经典浅灰" dark="false"/>
+</TemplateThemeAttrMark>
+<StrategyConfigsAttr class="com.fr.esd.core.strategy.persistence.StrategyConfigsAttr">
+<StrategyConfigs/>
+</StrategyConfigsAttr>
+<ForkIdAttrMark class="com.fr.base.iofile.attr.ForkIdAttrMark">
+<ForkIdAttrMark forkId="65e67d35-581a-4124-89eb-78065a5bfc3b"/>
+</ForkIdAttrMark>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="65e67d35-581a-4124-89eb-78065a5bfc3b"/>
+</TemplateIdAttMark>
+</WorkBook>
